@@ -1,7 +1,13 @@
 # Quadratic Equations Solver
 
-[TODO. There will be project description]
+В данном репозитории хранится скрипт с функцией вычисления корней квадратного уравнения, набором тестов для данной функции и pre-commit hook для git репозитория, запускающий тесты перед коммитом. Если изменения в коде повлекли за собой сбои при прохождении тестов, то будет выведен отчет об ошибке и коммит сделать не удастся.
 
-# Project Goals
+### Использование pre-commit hook
+
+После клонирования репозитория необходимо скопировать файл pre-commit по адресу ".git/hooks" в репозитории.
+
+Для работы хук обязательно(!) должен иметь права на запуск. Если по какой-то причине хук таких прав не имеет, можно добиться этого командой в терминале: `chmod +x pre-commit`.
+
+ # Project Goals
 
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
