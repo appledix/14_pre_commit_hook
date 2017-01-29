@@ -8,6 +8,6 @@
 
 Для работы хук обязательно(!) должен иметь права на запуск. Если по какой-то причине хук таких прав не имеет, можно добиться этого командой в терминале: `chmod +x pre-commit`.
 
- # Project Goals
+# Project Goals
 
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
