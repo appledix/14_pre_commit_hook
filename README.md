@@ -4,7 +4,7 @@
 
 ## Использование
 
-##### В качестве модуля
+#### В качестве модуля
 Импортируем функцию к себе в программу и наслаждаемся:
 ```python
 from quadratic_equation import get_roots
@@ -12,15 +12,15 @@ from quadratic_equation import get_roots
 print(get_roots(a, b, c))
 ```
 
-#####  Тесты
+####  Тесты
 Запуск вручную в терминале: `python3.5 tests.py`
 
-##### Установка pre-commit hook
+#### Установка pre-commit hook
 В клонированный репозиторий необходимо скопировать файл **pre-commit** по адресу ".git/hooks" в репозитории.
 
 Для работы хук обязательно(!) должен иметь права на запуск. Если по какой-то причине хук таких прав не имеет, можно добиться этого командой в терминале: `chmod +x pre-commit`.
 
-##### Установка скрипта
+#### Установка скрипта
 В терминале: `git clone https://github.com/appledix/17_sites_monitoring.git`
 
 # Project Goals
